@@ -1,0 +1,35 @@
+I'm on cuda, Rank: 0
+Embedding dict loaded from: OP model
+------------------Experiment is on GPT embeddings-----------------------
+Traceback (most recent call last):
+  File "/output/NEW/dev/train.py", line 240, in <module>
+    mdl = ADRDModel()
+          ^^^^^^^^^^^
+  File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/openbayes/home/NEW/model/adrd.py", line 65, in __init__
+    self._init_scheduler()
+  File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/openbayes/home/NEW/model/adrd.py", line 463, in _init_scheduler
+    verbose=(verbose > 2)
+             ^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/output/NEW/dev/train.py", line 240, in <module>
+[rank0]:     mdl = ADRDModel()
+[rank0]:           ^^^^^^^^^^^
+[rank0]:   File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+[rank0]:     return func(*bound_args.args, **bound_args.kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/openbayes/home/NEW/model/adrd.py", line 65, in __init__
+[rank0]:     self._init_scheduler()
+[rank0]:   File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+[rank0]:     return func(*bound_args.args, **bound_args.kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/openbayes/home/NEW/model/adrd.py", line 463, in _init_scheduler
+[rank0]:     verbose=(verbose > 2)
+[rank0]:              ^^^^^^^^^^^
+[rank0]: TypeError: '>' not supported between instances of 'NoneType' and 'int'

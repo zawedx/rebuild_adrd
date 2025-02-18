@@ -1,0 +1,52 @@
+{
+  "os": "Linux-5.15.0-119-generic-x86_64-with-glibc2.31",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-02-15T07:56:02.321347Z",
+  "program": "/output/NEW/dev/train.py",
+  "codePath": "dev/train.py",
+  "email": "1071022348@qq.com",
+  "root": "/output/NEW",
+  "host": "maohx-sjyxdmxznlhsys-djwo8rdh4mkj-main",
+  "executable": "/usr/local/envs/LMTDE/bin/python",
+  "codePathLocal": "dev/train.py",
+  "cpu_count": 128,
+  "cpu_count_logical": 160,
+  "gpu": "NVIDIA A40",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "11901658005504",
+      "used": "125897043968"
+    }
+  },
+  "memory": {
+    "total": "209715200000"
+  },
+  "cpu": {
+    "count": 128,
+    "countLogical": 160
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A40",
+      "memoryTotal": "47850782720",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A40",
+      "memoryTotal": "47850782720",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A40",
+      "memoryTotal": "47850782720",
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A40",
+      "memoryTotal": "47850782720",
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.1"
+}

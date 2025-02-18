@@ -1,0 +1,13 @@
+{"time":"2025-02-15T08:12:55.893009633Z","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-02-15T08:12:55.893349296Z","level":"INFO","msg":"created symlink","path":"/output/NEW/wandb/run-20250215_081255-gqg3643x/logs/debug-core.log"}
+{"time":"2025-02-15T08:12:56.030424309Z","level":"INFO","msg":"created new stream","id":"gqg3643x"}
+{"time":"2025-02-15T08:12:56.03050781Z","level":"INFO","msg":"stream: started","id":"gqg3643x"}
+{"time":"2025-02-15T08:12:56.03055479Z","level":"INFO","msg":"writer: Do: started","stream_id":"gqg3643x"}
+{"time":"2025-02-15T08:12:56.030577418Z","level":"INFO","msg":"sender: started","stream_id":"gqg3643x"}
+{"time":"2025-02-15T08:12:56.030601088Z","level":"INFO","msg":"handler: started","stream_id":"gqg3643x"}
+{"time":"2025-02-15T08:12:56.536888137Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-15T14:30:45.065615418Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-15T14:55:26.657965513Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/haarmony-/LMTDE/gqg3643x/file_stream\": EOF"}
+{"time":"2025-02-15T14:58:30.24476163Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-15T15:08:30.286328705Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-02-15T18:32:51.198613592Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/haarmony-/LMTDE/gqg3643x/file_stream\": EOF"}

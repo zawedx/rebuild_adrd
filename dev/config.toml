@@ -1,0 +1,41 @@
+[path]
+prefix = "/output/LMTDE"
+data_path = "${prefix}/data/datasets/nacc_new/intra/nacc_newest.csv"
+train_path = "${prefix}/data/datasets/nacc_new/nacc_train.csv"
+vld_path = "${prefix}/data/datasets/nacc_new/nacc_validation.csv"
+test_path = "${prefix}/data/datasets/nacc_new/nacc_test.csv"
+cnf_file = "${prefix}/dev/data/toml_files/default_conf_new.toml"
+imgnet_ckpt = "${prefix}/dev/ckpt/model_swinvit.pt"
+ckpt_path = "${prefix}/dev/ckpt/mgda.pt"
+gpt_embedding = "${prefix}/data/embeddings/feature_L_mapped.pkl"
+emb_path = "${prefix}/data/embeddings/feature_L_mapped.pkl"
+
+[model]
+project_name = "LMTDE"
+model_name = "adrd_rebuild"
+verbose = 4
+d_model = 256
+nhead = 1
+num_epochs = 1000
+batch_size =3072
+lr = 0.004
+clr_ratio = 1
+gamma = 0
+weight_decay = 0.0005
+save_intermediate_ckpts = true
+use_wandb = true
+parallel = true
+emb_droprate = 0.00
+num_encoder_layers = 1
+
+[image]
+img_net = "NonImg"
+img_mode = -1
+img_size = "(182,218,182)"
+patch_size = 16
+fusion_stage = "middle"
+imgnet_layers = 4
+
+[model_tip]
+config1 = 1
+config2 = 2

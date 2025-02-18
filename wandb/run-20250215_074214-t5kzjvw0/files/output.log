@@ -1,0 +1,29 @@
+I'm on cuda, Rank: 0
+Embedding dict loaded from: OP model
+------------------Experiment is on GPT embeddings-----------------------
+Rank 0: Model hash: 136acbf81f7164d3450a60a8b901c723
+None
+Traceback (most recent call last):
+  File "/output/NEW/dev/train.py", line 263, in <module>
+    mdl.fit(dat_trn.features, dat_vld.features, dat_trn.labels, dat_vld.labels)
+  File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/openbayes/home/NEW/model/adrd.py", line 85, in fit
+    self.train_one_epoch()
+  File "/openbayes/home/NEW/model/adrd.py", line 220, in train_one_epoch
+    if verbose > 1 and local_rank == 0:
+      ^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'NoneType' and 'int'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/output/NEW/dev/train.py", line 263, in <module>
+[rank0]:     mdl.fit(dat_trn.features, dat_vld.features, dat_trn.labels, dat_vld.labels)
+[rank0]:   File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+[rank0]:     return func(*bound_args.args, **bound_args.kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/openbayes/home/NEW/model/adrd.py", line 85, in fit
+[rank0]:     self.train_one_epoch()
+[rank0]:   File "/openbayes/home/NEW/model/adrd.py", line 220, in train_one_epoch
+[rank0]:     if verbose > 1 and local_rank == 0:
+[rank0]:        ^^^^^^^^^^^
+[rank0]: TypeError: '>' not supported between instances of 'NoneType' and 'int'

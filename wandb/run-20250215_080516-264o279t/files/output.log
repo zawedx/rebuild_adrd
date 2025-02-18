@@ -1,0 +1,53 @@
+I'm on cuda, Rank: 0
+Embedding dict loaded from: OP model
+------------------Experiment is on GPT embeddings-----------------------
+Rank 0: Model hash: 136acbf81f7164d3450a60a8b901c723
+None
+Epoch 000 (TRA):   0%|| 0/36775 [00:00<?, ?it/s]nce_loss: 4.090507507324219
+Epoch 000 (TRA):  33%|| 12288/36775 [00:29<00:58, 417.84it/s]nce_loss: 4.099929332733154
+Epoch 000 (TRA):  67%|| 24576/36775 [00:31<00:13, 908.48it/s]nce_loss: 3.8822057247161865
+Epoch 000 (TRA): || 36776/? [00:34<00:00, 1059.02it/s]       
+Accuracy:           0.6492    0.5809    0.5449    0.5907    0.3632    0.4832    0.1832    0.7129    0.5261    0.8990    0.6018    0.6742    0.4068
+Balanced Accuracy:  0.4979    0.5000    0.5019    0.5418    0.5103    0.5010    0.5384    0.5165    0.4976    0.5008    0.5005    0.4902    0.5267
+Precision:          0.3110    0.2598    0.3744    0.6198    0.0748    0.0694    0.0026    0.0326    0.0043    0.0540    0.1989    0.0198    0.0025
+Sensitivity/Recall: 0.0317    0.3318    0.3341    0.1592    0.6825    0.5216    0.8953    0.3079    0.4688    0.0559    0.3326    0.2981    0.6471
+Specificity:        0.9642    0.6683    0.6696    0.9244    0.3381    0.4803    0.1815    0.7251    0.5264    0.9457    0.6685    0.6823    0.4063
+F1 score:           0.0576    0.2914    0.3531    0.2533    0.1348    0.1224    0.0051    0.0590    0.0085    0.0550    0.2489    0.0371    0.0050
+MCC:                -0.0107    0.0001    0.0038    0.1315    0.0113    0.0010    0.0096    0.0125    -0.0006    0.0016    0.0009    -0.0061    0.0052
+AUC (ROC):          0.5249    0.5111    0.5370    0.5344    0.5454    0.5099    0.6055    0.5425    0.4908    0.4984    0.4847    0.4952    0.5492
+AUC (PR):           0.3399    0.2770    0.4625    0.5053    0.0851    0.0726    0.0036    0.0365    0.0045    0.0521    0.1975    0.0209    0.0032
+Loss:               0.5134    0.6136    0.9233    0.3329    0.2993    0.1998    0.0071    0.0637    0.0108    0.1052    0.8300    0.0597    0.0061
+Traceback (most recent call last):
+  File "/output/NEW/dev/train.py", line 263, in <module>
+    mdl.fit(dat_trn.features, dat_vld.features, dat_trn.labels, dat_vld.labels)
+  File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/openbayes/home/NEW/model/adrd.py", line 91, in fit
+    self.train_one_epoch()
+  File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/openbayes/home/NEW/model/adrd.py", line 220, in train_one_epoch
+    self.net_.val()
+    ^^^^^^^^^^^^^
+  File "/usr/local/envs/LMTDE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1931, in __getattr__
+    raise AttributeError(
+AttributeError: 'DistributedDataParallel' object has no attribute 'val'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/output/NEW/dev/train.py", line 263, in <module>
+[rank0]:     mdl.fit(dat_trn.features, dat_vld.features, dat_trn.labels, dat_vld.labels)
+[rank0]:   File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+[rank0]:     return func(*bound_args.args, **bound_args.kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/openbayes/home/NEW/model/adrd.py", line 91, in fit
+[rank0]:     self.train_one_epoch()
+[rank0]:   File "/openbayes/home/NEW/common/ml_frame.py", line 27, in wrapper
+[rank0]:     return func(*bound_args.args, **bound_args.kwargs)
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/openbayes/home/NEW/model/adrd.py", line 220, in train_one_epoch
+[rank0]:     self.net_.val()
+[rank0]:     ^^^^^^^^^^^^^
+[rank0]:   File "/usr/local/envs/LMTDE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1931, in __getattr__
+[rank0]:     raise AttributeError(
+[rank0]: AttributeError: 'DistributedDataParallel' object has no attribute 'val'. Did you mean: 'eval'?

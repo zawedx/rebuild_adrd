@@ -1,0 +1,16 @@
+{"time":"2025-02-15T07:59:30.677033792Z","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2025-02-15T07:59:30.677480253Z","level":"INFO","msg":"created symlink","path":"/output/NEW/wandb/run-20250215_075930-cv58i4ol/logs/debug-core.log"}
+{"time":"2025-02-15T07:59:30.796224183Z","level":"INFO","msg":"created new stream","id":"cv58i4ol"}
+{"time":"2025-02-15T07:59:30.796410416Z","level":"INFO","msg":"stream: started","id":"cv58i4ol"}
+{"time":"2025-02-15T07:59:30.796478781Z","level":"INFO","msg":"writer: Do: started","stream_id":"cv58i4ol"}
+{"time":"2025-02-15T07:59:30.796556031Z","level":"INFO","msg":"sender: started","stream_id":"cv58i4ol"}
+{"time":"2025-02-15T07:59:30.796526041Z","level":"INFO","msg":"handler: started","stream_id":"cv58i4ol"}
+{"time":"2025-02-15T07:59:31.290440859Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-15T08:00:32.82628147Z","level":"INFO","msg":"stream: closing","id":"cv58i4ol"}
+{"time":"2025-02-15T08:00:32.826422329Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-15T08:00:32.827422967Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-15T08:00:34.771574643Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-15T08:00:35.349750687Z","level":"INFO","msg":"handler: closed","stream_id":"cv58i4ol"}
+{"time":"2025-02-15T08:00:35.349798969Z","level":"INFO","msg":"writer: Close: closed","stream_id":"cv58i4ol"}
+{"time":"2025-02-15T08:00:35.349836892Z","level":"INFO","msg":"sender: closed","stream_id":"cv58i4ol"}
+{"time":"2025-02-15T08:00:35.350512069Z","level":"INFO","msg":"stream: closed","id":"cv58i4ol"}

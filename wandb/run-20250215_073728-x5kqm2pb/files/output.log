@@ -1,0 +1,18 @@
+I'm on cuda, Rank: 0
+Embedding dict loaded from: OP model
+------------------Experiment is on GPT embeddings-----------------------
+Rank 0: Model hash: 136acbf81f7164d3450a60a8b901c723
+Traceback (most recent call last):
+  File "/output/NEW/dev/train.py", line 263, in <module>
+    mdl.fit(dat_trn.features, dat_vld.features, dat_trn.labels, dat_vld.labels)
+  File "/openbayes/home/NEW/model/adrd.py", line 34, in wrapper
+    if getattr(kwargs['self'], 'parallel', False):
+               ~~~~~~^^^^^^^^
+KeyError: 'self'
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/output/NEW/dev/train.py", line 263, in <module>
+[rank0]:     mdl.fit(dat_trn.features, dat_vld.features, dat_trn.labels, dat_vld.labels)
+[rank0]:   File "/openbayes/home/NEW/model/adrd.py", line 34, in wrapper
+[rank0]:     if getattr(kwargs['self'], 'parallel', False):
+[rank0]:                ~~~~~~^^^^^^^^
+[rank0]: KeyError: 'self'
