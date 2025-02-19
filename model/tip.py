@@ -23,7 +23,7 @@ from utils.misc import ProgressBar
 from utils.misc import get_metrics_multitask, print_metrics_multitask
 from utils.misc import convert_args_kwargs_to_kwargs
 
-sys.path.append('/openbayes/home/NEW/baseline/')
+sys.path.append('/openbayes/home/NEW/rebuild_adrd/baseline/')
 from TIP.utils.clip_loss import CLIPLoss
 from TIP.utils.reconstruct_loss import ReconstructionLoss
 

@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
-from adrd.nn import ImageModel
+from torch.nn import ImageModel
 from icecream import ic
 import torch
 from .imgdataload import ImageDataset

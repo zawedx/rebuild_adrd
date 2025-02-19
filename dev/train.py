@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append(os.path.abspath("/openbayes/home/NEW/"))
+sys.path.append(os.path.abspath("/openbayes/home/NEW/rebuild_adrd/"))
 
 from common.ml_frame import with_local_info, ml_frame
 from common.ml_logger import MLLogger
@@ -102,7 +102,7 @@ def init_DDP(
         ml_frame.set_local_info('global_rank', 0)
 
 
-config = toml.load('/openbayes/home/NEW/dev/config.toml')
+config = toml.load('/openbayes/home/NEW/rebuild_adrd/dev/config.toml')
 args = parser()
 
 # use args to update config
