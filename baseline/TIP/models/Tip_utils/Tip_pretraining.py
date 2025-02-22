@@ -13,6 +13,7 @@ from sklearn.linear_model import LogisticRegression
 from lightly.models.modules import SimCLRProjectionHead
 # from pl_bolts.optimizers.lr_scheduler import LinearWarmupCosineAnnealingLR
 # from pl_bolts.utils.self_supervised import torchvision_ssl_encoder
+from utils.tip_bolt import LinearWarmupCosineAnnealingLR
 def torchvision_ssl_encoder(model_name='resnet50', pretrained=True, output_dim=128, return_all_feature_maps=False):
     """
     替代 pl_bolts 的 torchvision_ssl_encoder 函数。
@@ -80,7 +81,7 @@ class FeatureMapWrapper(torch.nn.Module):
 
 import sys
 # TODO: Change the path to your own project directory if you want to run this file alone for debugging 
-sys.path.append('/openbayes/home/NEW/baseline/TIP')
+sys.path.append('/openbayes/home/NEW/rebuild_adrd/baseline/TIP')
 from models.Tip_utils.Transformer import TabularTransformerEncoder, MultimodalTransformerEncoder, TabularPredictor
 from models.Tip_utils.VisionTransformer_imagenet import create_vit
 
@@ -335,8 +336,7 @@ class Pretraining(pl.LightningModule):
     if self.hparams.scheduler == 'cosine':
       scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=int(self.hparams.dataset_length*self.hparams.cosine_anneal_mult), eta_min=0, last_epoch=-1)
     elif self.hparams.scheduler == 'anneal':
-      # scheduler = LinearWarmupCosineAnnealingLR(optimizer, warmup_epochs=self.hparams.warmup_epochs, max_epochs = self.hparams.max_epochs)
-      scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=self.hparams.warmup_epochs, T_mult=1, eta_min=0, last_epoch=-1)
+      scheduler = LinearWarmupCosineAnnealingLR(optimizer, warmup_epochs=self.hparams.warmup_epochs, max_epochs = self.hparams.max_epochs)
     else:
       raise ValueError('Valid schedulers are "cosine" and "anneal"')
     

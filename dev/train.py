@@ -240,27 +240,8 @@ if current_model_name == 'TIP':
 elif current_model_name == 'ADRD':
     mdl = ADRDModel()
 
-
-    
-# if ml_frame.get_local_info('parallel') == True:
-#     local_rank = ml_frame.get_local_info('local_rank')
-#     global_rank = ml_frame.get_local_info('global_rank')
-#     mdl.to(local_rank)
-#     if local_rank == 0:
-#         start_time = time.time()
-#         while True:
-#             if time.time() - start_time >= 10:
-#                 break
-            
-#     sys.stderr.write(f"Rank {global_rank}: Model hash: {get_model_hash(mdl.net_)}\n")
-#         # raise("shit")
-#     mdl.net_ = DDP(mdl.net_, device_ids=[local_rank], output_device=local_rank)
-
 mdl.prepare_DDP()
 
-# if args.img_mode == 0 or args.img_mode == 2:
-#     mdl.fit(dat_trn.features, dat_vld.features, dat_trn.labels, dat_vld.labels, img_train_trans=trn_filter_transform, img_vld_trans=vld_filter_transform, img_mode=args.img_mode)
-# else:
 mdl.fit(dat_trn.features, dat_vld.features, dat_trn.labels, dat_vld.labels)
 
 torch.distributed.destroy_process_group()

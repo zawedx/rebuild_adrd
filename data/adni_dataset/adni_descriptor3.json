@@ -1,0 +1,955 @@
+{
+    "TRAILS": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Assessment of the Trails task: \nResponse is incorrect",
+            "1": "Assessment of the Trails task: \nResponse is correct"
+        }
+    },
+    "CUBE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Evaluation of the ability to copy a cube drawing: \nResponse is incorrect",
+            "1": "Evaluation of the ability to copy a cube drawing: \nResponse is correct"
+        }
+    },
+    "CLOCKCON": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Evaluation of the contour accuracy in a clock-drawing test: \nContour is drawn incorrectly",
+            "1": "Evaluation of the contour accuracy in a clock-drawing test: \nContour is drawn correctly"
+        }
+    },
+    "CLOCKNO": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Evaluation of the number placement in a clock-drawing test: \nNumbers are placed incorrectly",
+            "1": "Evaluation of the number placement in a clock-drawing test: \nNumbers are placed correctly"
+        }
+    },
+    "CLOCKHAN": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Evaluation of the clock hands in a clock-drawing test: \nHands are drawn incorrectly",
+            "1": "Evaluation of the clock hands in a clock-drawing test: \nHands are drawn correctly"
+        }
+    },
+    "DATE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Ability to correctly state the date: \nStated date is incorrect",
+            "1": "Ability to correctly state the date: \nStated date is correct"
+        }
+    },
+    "MONTH": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Ability to correctly state the current month: \nStated month is incorrect",
+            "1": "Ability to correctly state the current month: \nStated month is correct"
+        }
+    },
+    "YEAR": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Ability to correctly state the current year: \nStated year is incorrect",
+            "1": "Ability to correctly state the current year: \nStated year is correct"
+        }
+    },
+    "DAY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Ability to correctly state the current day of the week: \nStated day is incorrect",
+            "1": "Ability to correctly state the current day of the week: \nStated day is correct"
+        }
+    },
+    "PLACE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Ability to correctly identify the current place of residence or testing: \nStated place is incorrect",
+            "1": "Ability to correctly identify the current place of residence or testing: \nStated place is correct"
+        }
+    },
+    "CITY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Ability to correctly identify the current city: \nStated city is incorrect",
+            "1": "Ability to correctly identify the current city: \nStated city is correct"
+        }
+    },
+    "MMSCORE": {
+        "type": "numerical",
+        "Descriptor": "Total score from the Mini-Mental State Examination (MMSE), which assesses cognitive function."
+    },
+    "PTPLANG": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Primary language of the participant: \nEnglish",
+            "2": "Primary language of the participant: \nSpanish",
+            "3": "Primary language of the participant: \nOther languages"
+        }
+    },
+    "PTMARRY": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Current marital status of the participant: \nMarried",
+            "2": "Current marital status of the participant: \nWidowed",
+            "3": "Current marital status of the participant: \nDivorced",
+            "4": "Current marital status of the participant: \nNever married",
+            "5": "Current marital status of the participant: \nUnknown",
+            "6": "Current marital status of the participant: \nDomestic partnership"
+        }
+    },
+    "PTHOME": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Type of residence where the participant lives: \nHouse (owned or rented)",
+            "2": "Type of residence where the participant lives: \nCondominium or co-op (owned)",
+            "3": "Type of residence where the participant lives: \nApartment (rented)",
+            "4": "Type of residence where the participant lives: \nMobile home",
+            "5": "Type of residence where the participant lives: \nRetirement community",
+            "6": "Type of residence where the participant lives: \nAssisted living facility",
+            "7": "Type of residence where the participant lives: \nSkilled nursing facility",
+            "8": "Type of residence where the participant lives: \nOther (specify)",
+            "9": "Type of residence where the participant lives: \nHouse (rented)",
+            "10": "Type of residence where the participant lives: \nHouse (owned)"
+        }
+    },
+    "PTHAND": {
+        "type": "binary",
+        "Descriptor": {
+            "1": "Handedness of the participant: \nRight-handed",
+            "2": "Handedness of the participant: \nLeft-handed"
+        }
+    },
+    "PTEDUCAT": {
+        "type": "numerical",
+        "Descriptor": "Level of education attained by the participant, typically recorded in years of education completed."
+    },
+    "MOTHDEM": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "History of dementia in the biological mother: \nNo dementia history",
+            "1": "History of dementia in the biological mother: \nHistory of dementia",
+            "2": "History of dementia in the biological mother: \nUnknown or not reported"
+        }
+    },
+    "FATHDEM": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "History of dementia in the biological father: \nNo dementia history",
+            "1": "History of dementia in the biological father: \nHistory of dementia",
+            "2": "History of dementia in the biological father: \nUnknown or not reported"
+        }
+    },
+    "MH16BSMOK": {
+        "type": "numerical",
+        "Descriptor": "Duration of smoking behavior, measured in years."
+    },
+    "HMHYPERT": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "History of hypertension (high blood pressure): \nNo history of hypertension",
+            "1": "History of hypertension (high blood pressure): \nHistory of hypertension (1 point assigned)"
+        }
+    },
+    "BCSTROKE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the subject has had a stroke: \nNo history of stroke",
+            "1": "Indicates whether the subject has had a stroke: \nHistory of stroke"
+        }
+    },
+    "HMSTROKE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "History of stroke: \nNo history of stroke",
+            "2": "History of stroke: \nHistory of stroke (2 points assigned)"
+        }
+    },
+    "HMNEURSM": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Presence of focal neurologic symptoms: \nNo symptoms",
+            "2": "Presence of focal neurologic symptoms: \nSymptoms present (2 points assigned)"
+        }
+    },
+    "HMNEURSG": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Presence of focal neurologic signs: \nNo signs",
+            "2": "Presence of focal neurologic signs: \nSigns present (2 points assigned)"
+        }
+    },
+    "PTRACCAT": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Racial category of the participant: \nAmerican Indian or Alaskan Native",
+            "2": "Racial category of the participant: \nAsian",
+            "3": "Racial category of the participant: \nNative Hawaiian or Other Pacific Islander",
+            "4": "Racial category of the participant: \nBlack or African American",
+            "5": "Racial category of the participant: \nWhite",
+            "6": "Racial category of the participant: \nMore than one race",
+            "7": "Racial category of the participant: \nUnknown",
+            "8": "Racial category of the participant: \nNative Hawaiian",
+            "9": "Racial category of the participant: \nOther Pacific Islander"
+        }
+    },
+    "VSBPSYS": {
+        "type": "numerical",
+        "Descriptor": "Participant's systolic blood pressure measurement, recorded in mmHg."
+    },
+    "VSBPDIA": {
+        "type": "numerical",
+        "Descriptor": "Participant's diastolic blood pressure measurement, recorded in mmHg."
+    },
+    "VSPULSE": {
+        "type": "numerical",
+        "Descriptor": "Participant's seated pulse rate, measured in beats per minute."
+    },
+    "GDSATIS": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Self-assessment of life satisfaction: \nNot satisfied (1 point)",
+            "1": "Self-assessment of life satisfaction: \nSatisfied (0 points)"
+        }
+    },
+    "GDDROP": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant has dropped many activities and interests: \nNo (0 points)",
+            "1": "Indicates whether the participant has dropped many activities and interests: \nYes (1 point)"
+        }
+    },
+    "GDEMPTY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant feels their life is empty: \nNo (0 points)",
+            "1": "Indicates whether the participant feels their life is empty: \nYes (1 point)"
+        }
+    },
+    "GDBORED": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant often feels bored: \nNo (0 points)",
+            "1": "Indicates whether the participant often feels bored: \nYes (1 point)"
+        }
+    },
+    "GDSPIRIT": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Assessment of whether the participant feels they are in good spirits most of the time: \nNo (0 points)",
+            "1": "Assessment of whether the participant feels they are in good spirits most of the time: \nYes (1 point)"
+        }
+    },
+    "GDAFRAID": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant is afraid that something bad might happen to them: \nNo (0 points)",
+            "1": "Indicates whether the participant is afraid that something bad might happen to them: \nYes (1 point)"
+        }
+    },
+    "GDHAPPY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Assessment of whether the participant feels happy most of the time: \nNo (0 points)",
+            "1": "Assessment of whether the participant feels happy most of the time: \nYes (1 point)"
+        }
+    },
+    "GDHELP": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant often feels helpless: \nNo (0 points)",
+            "1": "Indicates whether the participant often feels helpless: \nYes (1 point)"
+        }
+    },
+    "GDHOME": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant prefers staying at home rather than going out and trying new things: \nNo (0 points)",
+            "1": "Indicates whether the participant prefers staying at home rather than going out and trying new things: \nYes (1 point)"
+        }
+    },
+    "GDMEMORY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant feels they have more memory problems than most people: \nNo (0 points)",
+            "1": "Indicates whether the participant feels they have more memory problems than most people: \nYes (1 point)"
+        }
+    },
+    "GDALIVE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant thinks it is wonderful to be alive now: \nNo (0 points)",
+            "1": "Indicates whether the participant thinks it is wonderful to be alive now: \nYes (1 point)"
+        }
+    },
+    "GDWORTH": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant feels worthless in their current state: \nNo (0 points)",
+            "1": "Indicates whether the participant feels worthless in their current state: \nYes (1 point)"
+        }
+    },
+    "GDENERGY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Assessment of whether the participant feels full of energy: \nNo (0 points)",
+            "1": "Assessment of whether the participant feels full of energy: \nYes (1 point)"
+        }
+    },
+    "GDHOPE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant feels hopeful about life: \nNo (0 points)",
+            "1": "Indicates whether the participant feels hopeful about life: \nYes (1 point)"
+        }
+    },
+    "GDBETTER": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indicates whether the participant believes most people are better off than they are: \nNo (0 points)",
+            "1": "Indicates whether the participant believes most people are better off than they are: \nYes (1 point)"
+        }
+    },
+    "HMONSET": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Abrupt onset of dementia symptoms: \nNo abrupt onset (Absent)",
+            "2": "Abrupt onset of dementia symptoms: \nSymptoms appeared abruptly (Present, 2 points assigned)"
+        }
+    },
+    "HMSTEPWS": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Stepwise progression of dementia symptoms: \nNo stepwise deterioration (Absent)",
+            "1": "Stepwise progression of dementia symptoms: \nSymptoms deteriorate in a stepwise manner (Present, 1 point assigned)"
+        }
+    },
+    "HMSOMATC": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Presence of somatic complaints associated with dementia: \nNo somatic complaints (Absent)",
+            "1": "Presence of somatic complaints associated with dementia: \nSomatic complaints reported (Present, 1 point assigned)"
+        }
+    },
+    "HMEMOTIO": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Presence of emotional complaints: \nNo emotional complaints (Absent)",
+            "1": "Presence of emotional complaints: \nEmotional complaints reported (Present, 1 point assigned)"
+        }
+    },
+    "MH14ALCH": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Indication of alcohol abuse: \nNo history of alcohol abuse",
+            "1": "Indication of alcohol abuse: \nHistory of alcohol abuse"
+        }
+    },
+    "NPICSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of agitation or aggression symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of agitation or aggression symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of agitation or aggression symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIESEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of anxiety symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of anxiety symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of anxiety symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIFSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of elation or euphoria symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of elation or euphoria symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of elation or euphoria symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIGSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of apathy or indifference symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of apathy or indifference symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of apathy or indifference symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIHSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of disinhibition symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of disinhibition symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of disinhibition symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIDSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of depression or dysphoria symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of depression or dysphoria symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of depression or dysphoria symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIASEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of delusional symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of delusional symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of delusional symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIBSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of hallucination symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of hallucination symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of hallucination symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPILSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of appetite-related symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of appetite-related symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of appetite-related symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIKSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of sleep-related symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of sleep-related symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of sleep-related symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIISEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of irritability or mood lability symptoms: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of irritability or mood lability symptoms: \nModerate (significant but not dramatic change)",
+            "3": "Severity of irritability or mood lability symptoms: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "NPIJSEV": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Severity of aberrant motor behavior: \nMild (noticeable but not significantly different from baseline)",
+            "2": "Severity of aberrant motor behavior: \nModerate (significant but not dramatic change)",
+            "3": "Severity of aberrant motor behavior: \nSevere (prominent or dramatic change)"
+        }
+    },
+    "DSPANFOR": {
+        "type": "numerical",
+        "Descriptor": "Digit Span (Forward): Total number of correctly recalled sequences."
+    },
+    "DSPANFLTH": {
+        "type": "numerical",
+        "Descriptor": "Digit Span (Forward): Length of the longest correctly recalled sequence."
+    },
+    "DSPANBAC": {
+        "type": "numerical",
+        "Descriptor": "Digit Span (Backward): Total number of correctly recalled sequences."
+    },
+    "DSPANBLTH": {
+        "type": "numerical",
+        "Descriptor": "Digit Span (Backward): Length of the longest correctly recalled sequence."
+    },
+    "TRABSCOR": {
+        "type": "numerical",
+        "Descriptor": "Trail Making Test (Part B): Time taken to complete the task, measured in seconds."
+    },
+    "TRAASCOR": {
+        "type": "numerical",
+        "Descriptor": "Trail Making Test (Part A): Time taken to complete the task, measured in seconds."
+    },
+    "LDELTOTAL": {
+        "type": "numerical",
+        "Descriptor": "Logical Memory (Delayed Recall): Total number of story units correctly recalled after a delay."
+    },
+    "LIMMTOTAL": {
+        "type": "numerical",
+        "Descriptor": "Logical Memory (Immediate Recall): Total number of story units recalled immediately after hearing."
+    },
+    "MOCA": {
+        "type": "numerical",
+        "Descriptor": "Montreal Cognitive Assessment (MOCA) score, used to assess overall cognitive functioning."
+    },
+    "BNTTOTAL": {
+        "type": "numerical",
+        "Descriptor": "Boston Naming Test: Total number of correct responses (sum of initial responses and responses after cues)."
+    },
+    "GDTOTAL": {
+        "type": "numerical",
+        "Descriptor": "Geriatric Depression Scale (GDS): Total score indicating the level of depressive symptoms."
+    },
+    "FAQFINAN": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to manage finances (e.g., writing checks, paying bills): \nNormal (0 points)",
+            "1": "Ability to manage finances (e.g., writing checks, paying bills): \nNever did, but could do now (0 points)",
+            "2": "Ability to manage finances (e.g., writing checks, paying bills): \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to manage finances (e.g., writing checks, paying bills): \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to manage finances (e.g., writing checks, paying bills): \nRequires assistance (2 points)",
+            "5": "Ability to manage finances (e.g., writing checks, paying bills): \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQFORM": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to organize papers (e.g., tax records, business documents): \nNormal (0 points)",
+            "1": "Ability to organize papers (e.g., tax records, business documents): \nNever did, but could do now (0 points)",
+            "2": "Ability to organize papers (e.g., tax records, business documents): \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to organize papers (e.g., tax records, business documents): \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to organize papers (e.g., tax records, business documents): \nRequires assistance (2 points)",
+            "5": "Ability to organize papers (e.g., tax records, business documents): \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQSHOP": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to shop independently for clothes, groceries, or household items: \nNormal (0 points)",
+            "1": "Ability to shop independently for clothes, groceries, or household items: \nNever did, but could do now (0 points)",
+            "2": "Ability to shop independently for clothes, groceries, or household items: \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to shop independently for clothes, groceries, or household items: \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to shop independently for clothes, groceries, or household items: \nRequires assistance (2 points)",
+            "5": "Ability to shop independently for clothes, groceries, or household items: \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQBEVG": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to prepare simple meals (e.g., heating water, making coffee): \nNormal (0 points)",
+            "1": "Ability to prepare simple meals (e.g., heating water, making coffee): \nNever did, but could do now (0 points)",
+            "2": "Ability to prepare simple meals (e.g., heating water, making coffee): \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to prepare simple meals (e.g., heating water, making coffee): \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to prepare simple meals (e.g., heating water, making coffee): \nRequires assistance (2 points)",
+            "5": "Ability to prepare simple meals (e.g., heating water, making coffee): \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQGAME": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to engage in hobbies or games of skill (e.g., bridge, chess): \nNormal (0 points)",
+            "1": "Ability to engage in hobbies or games of skill (e.g., bridge, chess): \nNever did, but could do now (0 points)",
+            "2": "Ability to engage in hobbies or games of skill (e.g., bridge, chess): \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to engage in hobbies or games of skill (e.g., bridge, chess): \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to engage in hobbies or games of skill (e.g., bridge, chess): \nRequires assistance (2 points)",
+            "5": "Ability to engage in hobbies or games of skill (e.g., bridge, chess): \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQTRAVL": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to travel independently (e.g., driving or arranging public transport): \nNormal (0 points)",
+            "1": "Ability to travel independently (e.g., driving or arranging public transport): \nNever did, but could do now (0 points)",
+            "2": "Ability to travel independently (e.g., driving or arranging public transport): \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to travel independently (e.g., driving or arranging public transport): \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to travel independently (e.g., driving or arranging public transport): \nRequires assistance (2 points)",
+            "5": "Ability to travel independently (e.g., driving or arranging public transport): \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQTV": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to understand TV programs, books, or magazines: \nNormal (0 points)",
+            "1": "Ability to understand TV programs, books, or magazines: \nNever did, but could do now (0 points)",
+            "2": "Ability to understand TV programs, books, or magazines: \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to understand TV programs, books, or magazines: \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to understand TV programs, books, or magazines: \nRequires assistance (2 points)",
+            "5": "Ability to understand TV programs, books, or magazines: \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQMEAL": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to prepare a balanced meal: \nNormal (0 points)",
+            "1": "Ability to prepare a balanced meal: \nNever did, but could do now (0 points)",
+            "2": "Ability to prepare a balanced meal: \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to prepare a balanced meal: \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to prepare a balanced meal: \nRequires assistance (2 points)",
+            "5": "Ability to prepare a balanced meal: \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQEVENT": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to keep track of current events: \nNormal (0 points)",
+            "1": "Ability to keep track of current events: \nNever did, but could do now (0 points)",
+            "2": "Ability to keep track of current events: \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to keep track of current events: \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to keep track of current events: \nRequires assistance (2 points)",
+            "5": "Ability to keep track of current events: \nCompletely dependent (3 points)"
+        }
+    },
+    "FAQREM": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Ability to remember appointments, family events, or medications: \nNormal (0 points)",
+            "1": "Ability to remember appointments, family events, or medications: \nNever did, but could do now (0 points)",
+            "2": "Ability to remember appointments, family events, or medications: \nNever did, would have difficulty now (1 point)",
+            "3": "Ability to remember appointments, family events, or medications: \nHas difficulty but manages independently (1 point)",
+            "4": "Ability to remember appointments, family events, or medications: \nRequires assistance (2 points)",
+            "5": "Ability to remember appointments, family events, or medications: \nCompletely dependent (3 points)"
+        }
+    },
+    "PTETHCAT": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Ethnic category of the participant: \nHispanic or Latino",
+            "2": "Ethnic category of the participant: \nNot Hispanic or Latino",
+            "3": "Ethnic category of the participant: \nUnknown"
+        }
+    },
+    "SERIAL1": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "First subtraction in the Serial 7 test: \nIncorrect",
+            "1": "First subtraction in the Serial 7 test: \nCorrect"
+        }
+    },
+    "SERIAL2": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Second subtraction in the Serial 7 test: \nIncorrect",
+            "1": "Second subtraction in the Serial 7 test: \nCorrect"
+        }
+    },
+    "SERIAL3": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Third subtraction in the Serial 7 test: \nIncorrect",
+            "1": "Third subtraction in the Serial 7 test: \nCorrect"
+        }
+    },
+    "SERIAL4": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Fourth subtraction in the Serial 7 test: \nIncorrect",
+            "1": "Fourth subtraction in the Serial 7 test: \nCorrect"
+        }
+    },
+    "SERIAL5": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Fifth subtraction in the Serial 7 test: \nIncorrect",
+            "1": "Fifth subtraction in the Serial 7 test: \nCorrect"
+        }
+    },
+    "DIGFOR": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Digits Forward Test: \nIncorrect recall",
+            "1": "Digits Forward Test: \nCorrect recall"
+        }
+    },
+    "DIGBACK": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Digits Backward Test: \nIncorrect recall",
+            "1": "Digits Backward Test: \nCorrect recall"
+        }
+    },
+    "LETTERS": {
+        "type": "numerical",
+        "Descriptor": "Number of errors in a letter-listing or tapping exercise."
+    },
+    "IMMT1W1": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#1): Recognition of the word 'Face'.\nIncorrect",
+            "1": "Immediate Recall (#1): Recognition of the word 'Face'.\nCorrect"
+        }
+    },
+    "IMMT1W2": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#1): Recognition of the word 'Velvet'.\nIncorrect",
+            "1": "Immediate Recall (#1): Recognition of the word 'Velvet'.\nCorrect"
+        }
+    },
+    "IMMT1W3": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#1): Recognition of the word 'Church'.\nIncorrect",
+            "1": "Immediate Recall (#1): Recognition of the word 'Church'.\nCorrect"
+        }
+    },
+    "IMMT1W4": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#1): Recognition of the word 'Daisy'.\nIncorrect",
+            "1": "Immediate Recall (#1): Recognition of the word 'Daisy'.\nCorrect"
+        }
+    },
+    "IMMT1W5": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#1): Recognition of the word 'Red'.\nIncorrect",
+            "1": "Immediate Recall (#1): Recognition of the word 'Red'.\nCorrect"
+        }
+    },
+    "IMMT2W1": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#2): Recognition of the word 'Face' during the second attempt.\nIncorrect",
+            "1": "Immediate Recall (#2): Recognition of the word 'Face' during the second attempt.\nCorrect"
+        }
+    },
+    "IMMT2W2": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#2): Recognition of the word 'Velvet' during the second attempt.\nIncorrect",
+            "1": "Immediate Recall (#2): Recognition of the word 'Velvet' during the second attempt.\nCorrect"
+        }
+    },
+    "IMMT2W3": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#2): Recognition of the word 'Church' during the second attempt.\nIncorrect",
+            "1": "Immediate Recall (#2): Recognition of the word 'Church' during the second attempt.\nCorrect"
+        }
+    },
+    "IMMT2W4": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#2): Recognition of the word 'Daisy' during the second attempt.\nIncorrect",
+            "1": "Immediate Recall (#2): Recognition of the word 'Daisy' during the second attempt.\nCorrect"
+        }
+    },
+    "IMMT2W5": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Immediate Recall (#2): Recognition of the word 'Red' during the second attempt.\nIncorrect",
+            "1": "Immediate Recall (#2): Recognition of the word 'Red' during the second attempt.\nCorrect"
+        }
+    },
+    "LION": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Animal Identification: Recognition of 'Lion'.\nIncorrect",
+            "1": "Animal Identification: Recognition of 'Lion'.\nCorrect"
+        }
+    },
+    "RHINO": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Animal Identification: Recognition of 'Rhinoceros'.\nIncorrect",
+            "1": "Animal Identification: Recognition of 'Rhinoceros'.\nCorrect"
+        }
+    },
+    "CAMEL": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Animal Identification: Recognition of 'Camel'.\nIncorrect",
+            "1": "Animal Identification: Recognition of 'Camel'.\nCorrect"
+        }
+    },
+    "REPEAT1": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Sentence Repetition: 'I only know that John is the one to help today.'\nIncorrect",
+            "1": "Sentence Repetition: 'I only know that John is the one to help today.'\nCorrect"
+        }
+    },
+    "REPEAT2": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Sentence Repetition: 'The cat always hid under the couch when dogs were in the room.'\nIncorrect",
+            "1": "Sentence Repetition: 'The cat always hid under the couch when dogs were in the room.'\nCorrect"
+        }
+    },
+    "FFLUENCY": {
+        "type": "numerical",
+        "Descriptor": "Letter Fluency Task: Total number of correct words beginning with the letter 'F'."
+    },
+    "ABSTRAN": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Abstraction Task: Understanding the relationship between 'train' and 'bicycle'.\nIncorrect",
+            "1": "Abstraction Task: Understanding the relationship between 'train' and 'bicycle'.\nCorrect"
+        }
+    },
+    "ABSMEAS": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Abstraction Task: Understanding the relationship between 'watch' and 'ruler'.\nIncorrect",
+            "1": "Abstraction Task: Understanding the relationship between 'watch' and 'ruler'.\nCorrect"
+        }
+    },
+    "DELW1": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Delayed Recall: Recognition of the word 'Face'.\nIncorrect",
+            "1": "Delayed Recall: Recognition of the word 'Face'.\nCorrect with no cue",
+            "2": "Delayed Recall: Recognition of the word 'Face'.\nCorrect with a category cue",
+            "3": "Delayed Recall: Recognition of the word 'Face'.\nCorrect with multiple-choice cue"
+        }
+    },
+    "DELW2": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Delayed Recall: Recognition of the word 'Velvet'.\nIncorrect",
+            "1": "Delayed Recall: Recognition of the word 'Velvet'.\nCorrect with no cue",
+            "2": "Delayed Recall: Recognition of the word 'Velvet'.\nCorrect with a category cue",
+            "3": "Delayed Recall: Recognition of the word 'Velvet'.\nCorrect with multiple-choice cue"
+        }
+    },
+    "DELW3": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Delayed Recall: Recognition of the word 'Church'.\nIncorrect",
+            "1": "Delayed Recall: Recognition of the word 'Church'.\nCorrect with no cue",
+            "2": "Delayed Recall: Recognition of the word 'Church'.\nCorrect with a category cue",
+            "3": "Delayed Recall: Recognition of the word 'Church'.\nCorrect with multiple-choice cue"
+        }
+    },
+    "DELW4": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Delayed Recall: Recognition of the word 'Daisy'.\nIncorrect",
+            "1": "Delayed Recall: Recognition of the word 'Daisy'.\nCorrect with no cue",
+            "2": "Delayed Recall: Recognition of the word 'Daisy'.\nCorrect with a category cue",
+            "3": "Delayed Recall: Recognition of the word 'Daisy'.\nCorrect with multiple-choice cue"
+        }
+    },
+    "DELW5": {
+        "type": "multi",
+        "Descriptor": {
+            "0": "Delayed Recall: Recognition of the word 'Red'.\nIncorrect",
+            "1": "Delayed Recall: Recognition of the word 'Red'.\nCorrect with no cue",
+            "2": "Delayed Recall: Recognition of the word 'Red'.\nCorrect with a category cue",
+            "3": "Delayed Recall: Recognition of the word 'Red'.\nCorrect with multiple-choice cue"
+        }
+    },
+    "MINTSEMCUE": {
+        "type": "numerical",
+        "Descriptor": "Multilingual Naming Test (MINT): Total number of items correctly named with the help of a semantic cue."
+    },
+    "MINTTOTAL": {
+        "type": "numerical",
+        "Descriptor": "Multilingual Naming Test (MINT): Total number of items named correctly, including both uncued responses and those correct with a semantic cue."
+    },
+    "MINTUNCUED": {
+        "type": "numerical",
+        "Descriptor": "Multilingual Naming Test (MINT): Total number of items named correctly without any cue."
+    },
+    "CATANIMSC": {
+        "type": "numerical",
+        "Descriptor": "Category Fluency (Animals): Total number of animals correctly named during the test."
+    },
+    "VSHEIGHT": {
+        "type": "numerical",
+        "Descriptor": "Participant's height as measured during the assessment."
+    },
+    "VSWEIGHT": {
+        "type": "numerical",
+        "Descriptor": "Participant's weight as measured during the assessment."
+    },
+    "VSWTUNIT": {
+        "type": "binary",
+        "Descriptor": {
+            "1": "Unit of measurement used for weight:\nPounds",
+            "2": "Unit of measurement used for weight:\nKilograms"
+        }
+    },
+    "VSHTUNIT": {
+        "type": "binary",
+        "Descriptor": {
+            "1": "Unit of measurement used for height:\nInches",
+            "2": "Unit of measurement used for height:\nCentimeters"
+        }
+    },
+    "FAQTOTAL": {
+        "type": "numerical",
+        "Descriptor": "Functional Activities Questionnaire (FAQ): Total score across all functional activity questions."
+    },
+    "MMDATE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the current date.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the current date.\nCorrect"
+        }
+    },
+    "MMYEAR": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the current year.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the current year.\nCorrect"
+        }
+    },
+    "MMMONTH": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the current month.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the current month.\nCorrect"
+        }
+    },
+    "MMDAY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the day of the week.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the day of the week.\nCorrect"
+        }
+    },
+    "MMSEASON": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the current season.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the current season.\nCorrect"
+        }
+    },
+    "MMHOSPIT": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the building (e.g., hospital, home) the participant is currently in.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the building (e.g., hospital, home) the participant is currently in.\nCorrect"
+        }
+    },
+    "MMFLOOR": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the floor of the building the participant is currently on.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the floor of the building the participant is currently on.\nCorrect"
+        }
+    },
+    "MMCITY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the city or town where the participant is located.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the city or town where the participant is located.\nCorrect"
+        }
+    },
+    "MMAREA": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the county where the participant is located.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the county where the participant is located.\nCorrect"
+        }
+    },
+    "MMSTATE": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Orientation Test: Score for correctly identifying the state where the participant is located.\nIncorrect",
+            "1": "Orientation Test: Score for correctly identifying the state where the participant is located.\nCorrect"
+        }
+    },
+    "subject_age": {
+        "type": "numerical",
+        "Descriptor": "The youngest age at which data for the participant is available."
+    },
+    "PTGENDER": {
+        "type": "binary",
+        "Descriptor": {
+            "1": "The sex assigned to the participant at birth, as recorded on their original birth certificate:\nMale",
+            "2": "The sex assigned to the participant at birth, as recorded on their original birth certificate:\nFemale"
+        }
+    },
+    "GENOTYPE": {
+        "type": "numerical",
+        "Descriptor": "Apolipoprotein E (Apo-E) genotype of the participant, used for genetic profiling."
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "CITY": {
+        "Descriptor": "Ability to correctly identify the current city: \n0 - Stated city is incorrect\n1 - Stated city is correct"
+    },
+    "MMSCORE": {
+        "Descriptor": "Total score from the Mini-Mental State Examination (MMSE), which assesses cognitive function."
+    },
+    "PTPLANG": {
+        "Descriptor": "Primary language of the participant: \n1 - English\n2 - Spanish\n3 - Other languages"
+    },
+    "PTMARRY": {
+        "Descriptor": "Current marital status of the participant: \n1 - Married\n2 - Widowed\n3 - Divorced\n4 - Never married\n5 - Unknown\n6 - Domestic partnership"
+    }
+}
+
+{
+    "CITY": {
+        "type": "binary",
+        "Descriptor": {
+            "0": "Ability to correctly identify the current city: \nStated city is incorrect",
+            "1": "Ability to correctly identify the current city: \nStated city is correct"
+        }
+    },
+    "MMSCORE": {
+        "type": "numerical",
+        "Descriptor": "Total score from the Mini-Mental State Examination (MMSE), which assesses cognitive function."
+    },
+    "PTPLANG": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Primary language of the participant: \nEnglish",
+            "2": "Primary language of the participant: \nSpanish",
+            "3": "Primary language of the participant: \nOther languages"
+        }
+    },
+    "PTMARRY": {
+        "type": "multi",
+        "Descriptor": {
+            "1": "Current marital status of the participant: \nMarried",
+            "2": "Current marital status of the participant: \nWidowed",
+            "3": "Current marital status of the participant: \nDivorced",
+            "4": "Current marital status of the participant: \nNever married",
+            "5": "Current marital status of the participant: \nUnknown",
+            "6": "Current marital status of the participant: \nDomestic partnership"
+        }
+    }
+}

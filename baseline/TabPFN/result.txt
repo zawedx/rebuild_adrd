@@ -1,0 +1,224 @@
+【NACC 非finetune的tabpfn 不sample 10000】
+TabPFN [NC] ROC AUC: 0.9680
+TabPFN [MCI] ROC AUC: 0.8897
+TabPFN [DE] ROC AUC: 0.9760
+TabPFN [AD] ROC AUC: 0.9123
+TabPFN [LBD] ROC AUC: 0.9556
+TabPFN [VD] ROC AUC: 0.9014
+TabPFN [PRD] ROC AUC: 0.9716
+TabPFN [FTD] ROC AUC: 0.9475
+TabPFN [NPH] ROC AUC: 0.8135
+TabPFN [SEF] ROC AUC: 0.7588
+TabPFN [PSY] ROC AUC: 0.8728
+TabPFN [TBI] ROC AUC: 0.8807
+TabPFN [ODE] ROC AUC: 0.4621
+
+
+(7881, 2)
+TabPFN [NC] ROC AUC: 0.5209 with 3 rows
+(7881, 1)
+TabPFN [NC] ROC AUC: 0.5000 with 10 rows
+(7881, 2)
+TabPFN [NC] ROC AUC: 0.9431 with 30 rows
+(7881, 2)
+TabPFN [NC] ROC AUC: 0.9509 with 100 rows
+(7881, 2)
+TabPFN [NC] ROC AUC: 0.9580 with 300 rows
+(7881, 2)
+TabPFN [NC] ROC AUC: 0.9614 with 1000 rows
+(7881, 2)
+TabPFN [NC] ROC AUC: 0.9675 with 3000 rows
+(7881, 2)
+TabPFN [NC] ROC AUC: 0.9679 with 10000 rows
+(7881, 1)
+TabPFN [MCI] ROC AUC: 0.5000 with 3 rows
+(7881, 2)
+TabPFN [MCI] ROC AUC: 0.5509 with 10 rows
+(7881, 2)
+TabPFN [MCI] ROC AUC: 0.5294 with 30 rows
+(7881, 2)
+TabPFN [MCI] ROC AUC: 0.8422 with 100 rows
+(7881, 2)
+TabPFN [MCI] ROC AUC: 0.8515 with 300 rows
+(7881, 2)
+TabPFN [MCI] ROC AUC: 0.8733 with 1000 rows
+(7881, 2)
+TabPFN [MCI] ROC AUC: 0.8869 with 3000 rows
+(7881, 2)
+TabPFN [MCI] ROC AUC: 0.8929 with 10000 rows
+(7881, 1)
+TabPFN [DE] ROC AUC: 0.5000 with 3 rows
+(7881, 2)
+TabPFN [DE] ROC AUC: 0.9339 with 10 rows
+(7881, 2)
+TabPFN [DE] ROC AUC: 0.9405 with 30 rows
+(7881, 2)
+TabPFN [DE] ROC AUC: 0.9690 with 100 rows
+(7881, 2)
+TabPFN [DE] ROC AUC: 0.9663 with 300 rows
+(7881, 2)
+TabPFN [DE] ROC AUC: 0.9729 with 1000 rows
+(7881, 2)
+TabPFN [DE] ROC AUC: 0.9769 with 3000 rows
+(7881, 2)
+TabPFN [DE] ROC AUC: 0.9774 with 10000 rows
+(7881, 2)
+TabPFN [AD] ROC AUC: 0.6275 with 3 rows
+(7881, 2)
+TabPFN [AD] ROC AUC: 0.8271 with 10 rows
+(7881, 2)
+TabPFN [AD] ROC AUC: 0.8440 with 30 rows
+(7881, 2)
+TabPFN [AD] ROC AUC: 0.8660 with 100 rows
+(7881, 2)
+TabPFN [AD] ROC AUC: 0.8688 with 300 rows
+(7881, 2)
+TabPFN [AD] ROC AUC: 0.8953 with 1000 rows
+(7881, 2)
+TabPFN [AD] ROC AUC: 0.9081 with 3000 rows
+(7881, 2)
+TabPFN [AD] ROC AUC: 0.9120 with 10000 rows
+(7881, 1)
+TabPFN [LBD] ROC AUC: 0.5000 with 3 rows
+(7881, 2)
+TabPFN [LBD] ROC AUC: 0.8833 with 10 rows
+(7881, 2)
+TabPFN [LBD] ROC AUC: 0.7814 with 30 rows
+(7881, 2)
+TabPFN [LBD] ROC AUC: 0.8819 with 100 rows
+(7881, 2)
+TabPFN [LBD] ROC AUC: 0.9369 with 300 rows
+(7881, 2)
+TabPFN [LBD] ROC AUC: 0.9479 with 1000 rows
+(7881, 2)
+TabPFN [LBD] ROC AUC: 0.9456 with 3000 rows
+(7881, 2)
+TabPFN [LBD] ROC AUC: 0.9535 with 10000 rows
+(7881, 1)
+TabPFN [VD] ROC AUC: 0.5000 with 3 rows
+(7881, 2)
+TabPFN [VD] ROC AUC: 0.5313 with 10 rows
+(7881, 2)
+TabPFN [VD] ROC AUC: 0.7102 with 30 rows
+(7881, 2)
+TabPFN [VD] ROC AUC: 0.8048 with 100 rows
+(7881, 2)
+TabPFN [VD] ROC AUC: 0.8430 with 300 rows
+(7881, 2)
+TabPFN [VD] ROC AUC: 0.8716 with 1000 rows
+(7881, 2)
+TabPFN [VD] ROC AUC: 0.8925 with 3000 rows
+(7881, 2)
+TabPFN [VD] ROC AUC: 0.8946 with 10000 rows
+(7881, 1)
+TabPFN [PRD] ROC AUC: 0.5000 with 3 rows
+(7881, 1)
+TabPFN [PRD] ROC AUC: 0.5000 with 10 rows
+(7881, 1)
+TabPFN [PRD] ROC AUC: 0.5000 with 30 rows
+(7881, 1)
+TabPFN [PRD] ROC AUC: 0.5000 with 100 rows
+(7881, 2)
+TabPFN [PRD] ROC AUC: 0.7391 with 300 rows
+(7881, 2)
+TabPFN [PRD] ROC AUC: 0.8634 with 1000 rows
+(7881, 2)
+TabPFN [PRD] ROC AUC: 0.9028 with 3000 rows
+(7881, 2)
+TabPFN [PRD] ROC AUC: 0.9700 with 10000 rows
+(7881, 2)
+TabPFN [FTD] ROC AUC: 0.5895 with 3 rows
+(7881, 1)
+TabPFN [FTD] ROC AUC: 0.5000 with 10 rows
+(7881, 2)
+TabPFN [FTD] ROC AUC: 0.7862 with 30 rows
+(7881, 2)
+TabPFN [FTD] ROC AUC: 0.8139 with 100 rows
+(7881, 2)
+TabPFN [FTD] ROC AUC: 0.8931 with 300 rows
+(7881, 2)
+TabPFN [FTD] ROC AUC: 0.9248 with 1000 rows
+(7881, 2)
+TabPFN [FTD] ROC AUC: 0.9469 with 3000 rows
+(7881, 2)
+TabPFN [FTD] ROC AUC: 0.9526 with 10000 rows
+(7881, 1)
+TabPFN [NPH] ROC AUC: 0.5000 with 3 rows
+(7881, 1)
+TabPFN [NPH] ROC AUC: 0.5000 with 10 rows
+(7881, 1)
+TabPFN [NPH] ROC AUC: 0.5000 with 30 rows
+(7881, 1)
+TabPFN [NPH] ROC AUC: 0.5000 with 100 rows
+(7881, 2)
+TabPFN [NPH] ROC AUC: 0.7407 with 300 rows
+(7881, 2)
+TabPFN [NPH] ROC AUC: 0.8188 with 1000 rows
+(7881, 2)
+TabPFN [NPH] ROC AUC: 0.8060 with 3000 rows
+(7881, 2)
+TabPFN [NPH] ROC AUC: 0.8265 with 10000 rows
+(7881, 2)
+TabPFN [SEF] ROC AUC: 0.5516 with 3 rows
+(7881, 1)
+TabPFN [SEF] ROC AUC: 0.5000 with 10 rows
+(7881, 2)
+TabPFN [SEF] ROC AUC: 0.5850 with 30 rows
+(7881, 2)
+TabPFN [SEF] ROC AUC: 0.5311 with 100 rows
+(7881, 2)
+TabPFN [SEF] ROC AUC: 0.5871 with 300 rows
+(7881, 2)
+TabPFN [SEF] ROC AUC: 0.6379 with 1000 rows
+(7881, 2)
+TabPFN [SEF] ROC AUC: 0.6755 with 3000 rows
+(7881, 2)
+TabPFN [SEF] ROC AUC: 0.7502 with 10000 rows
+(7881, 1)
+TabPFN [PSY] ROC AUC: 0.5000 with 3 rows
+(7881, 1)
+TabPFN [PSY] ROC AUC: 0.5000 with 10 rows
+(7881, 2)
+TabPFN [PSY] ROC AUC: 0.7281 with 30 rows
+(7881, 2)
+TabPFN [PSY] ROC AUC: 0.8384 with 100 rows
+(7881, 2)
+TabPFN [PSY] ROC AUC: 0.8467 with 300 rows
+(7881, 2)
+TabPFN [PSY] ROC AUC: 0.8626 with 1000 rows
+(7881, 2)
+TabPFN [PSY] ROC AUC: 0.8718 with 3000 rows
+(7881, 2)
+TabPFN [PSY] ROC AUC: 0.8727 with 10000 rows
+(7881, 1)
+TabPFN [TBI] ROC AUC: 0.5000 with 3 rows
+(7881, 1)
+TabPFN [TBI] ROC AUC: 0.5000 with 10 rows
+(7881, 1)
+TabPFN [TBI] ROC AUC: 0.5000 with 30 rows
+(7881, 2)
+TabPFN [TBI] ROC AUC: 0.5787 with 100 rows
+(7881, 2)
+TabPFN [TBI] ROC AUC: 0.7361 with 300 rows
+(7881, 2)
+TabPFN [TBI] ROC AUC: 0.8696 with 1000 rows
+(7881, 2)
+TabPFN [TBI] ROC AUC: 0.8781 with 3000 rows
+(7881, 2)
+TabPFN [TBI] ROC AUC: 0.8801 with 10000 rows
+(7881, 1)
+TabPFN [ODE] ROC AUC: 0.5000 with 3 rows
+(7881, 1)
+TabPFN [ODE] ROC AUC: 0.5000 with 10 rows
+(7881, 1)
+TabPFN [ODE] ROC AUC: 0.5000 with 30 rows
+(7881, 1)
+TabPFN [ODE] ROC AUC: 0.5000 with 100 rows
+(7881, 2)
+TabPFN [ODE] ROC AUC: 0.3869 with 300 rows
+(7881, 2)
+TabPFN [ODE] ROC AUC: 0.4918 with 1000 rows
+(7881, 2)
+TabPFN [ODE] ROC AUC: 0.4002 with 3000 rows
+(7881, 2)
+TabPFN [ODE] ROC AUC: 0.5375 with 10000 rows

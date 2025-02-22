@@ -1,0 +1,416 @@
+{                                                                                                                                                                                                                                                                                                              
+    "subject_id": {                                                                                                                                                                                                                                                                                            
+        "Descriptor": NaN                                                                                                                                                                                                                                                                                      
+    },                                                                                                                                                                                                                                                                                                         
+    "visit": {                                                                                                                                                                                                                                                                                                 
+        "Descriptor": NaN                                                                                                                                                                                                                                                                                      
+    },                                                                                                                                                                                                                                                                                                         
+    "TRAILS": {
+        "Descriptor": "Trails  \n0 Incorrect\n1 Correct"
+    },
+    "CUBE": {
+        "Descriptor": "Copy Cube\n0 Incorrect\n1 Correct"
+    },
+    "CLOCKCON": {
+        "Descriptor": "Draw Clock - Contour\n0- Incorrect\n1 -Correct"
+    },
+    "CLOCKNO": {
+        "Descriptor": "Draw Clock - Number\n0- Incorrect\n1 -Correct"
+    },
+    "CLOCKHAN": {
+        "Descriptor": "Draw Clock - Hands\n0- Incorrect\n1 -Correct"
+    },
+    "DATE": {
+        "Descriptor": "Date\n0- Incorrect\n1 -Correct"
+    },
+    "MONTH": {
+        "Descriptor": "Month\n0- Incorrect\n1 -Correct"
+    },
+    "YEAR": {
+        "Descriptor": "Year\n0- Incorrect\n1 -Correct"
+    },
+    "DAY": {
+        "Descriptor": "Day\n0- Incorrect\n1 -Correct"
+    },
+    "PLACE": {
+        "Descriptor": "Place\n0- Incorrect\n1 -Correct"
+    },
+    "CITY": {
+        "Descriptor": "City\n0- Incorrect\n1 -Correct"
+    },
+    "MMSCORE": {
+        "Descriptor": "MMSE TOTAL SCORE"
+    },
+    "PTPLANG": {
+        "Descriptor": "What is the participant's primary language?\n1 English\n2 Spanish\n3 Other"
+    },
+    "PTMARRY": {
+        "Descriptor": "Participant Marital Status\n1 Married\n2 Widowed\n3 Divorced\n4 Never married\n5 Unknown\n6 Domestic Partnership"
+    },
+    "PTHOME": {
+        "Descriptor": "Type of Participant residence\n1 House (owned or rented)\n2 Condo/Co-op (owned)\n3 Apartment (rented)\n4 Mobile Home\n5 Retirement Community\n6 Assisted Living\n7 Skilled Nursing Facility\n8 Other (specify)\n9 House (rented)\n10 House (owned)"
+    },
+    "PTHAND": {
+        "Descriptor": "Participant Handedness\n1 Right\n2 Left"
+    },
+    "PTEDUCAT": {
+        "Descriptor": "Participant Education"
+    },
+    "MOTHDEM": {
+        "Descriptor": "Did/Does the biological mother have dementia?\n0 No\n1 Yes\n2 I don't know"
+    },
+    "FATHDEM": {
+        "Descriptor": "Did/Does the biological father have dementia?\n0 No\n1 Yes\n2 I don't know"
+    },
+    "MH16BSMOK": {
+        "Descriptor": "Duration (years)"
+    },
+    "HMHYPERT": {
+        "Descriptor": "History of Hypertension\n0 Absent\n1 Present - 1 point"
+    },
+    "BCSTROKE": {
+        "Descriptor": "Did subject have a stroke?\n0 No\n1 Yes"
+    },
+    "HMSTROKE": {
+        "Descriptor": "History of Stroke\n0 Absent\n2 Present - 2 points"
+    },
+    "HMNEURSM": {
+        "Descriptor": "Focal Neurologic Symptoms\n0 Absent\n2 Present - 2 points"
+    },
+    "HMNEURSG": {
+        "Descriptor": "Focal Neurologic Signs\n0 Absent\n2 Present - 2 points"
+    },
+    "PTRACCAT": {
+        "Descriptor": "Racial Categories\n1 American Indian or Alaskan Native\n2 Asian\n3 Native Hawaiian or Other Pacific Islander\n4 Black or African American\n5 White\n6 More than one race\n7 Unknown\n8 Native Hawaiian\n9 Other Pacific Islander"
+    },
+    "VSBPSYS": {
+        "Descriptor": "Systolic - mmHg"
+    },
+    "VSBPDIA": {
+        "Descriptor": "Diastolic - mmHg"
+    },
+    "VSPULSE": {
+        "Descriptor": "Seated Pulse Rate (per minute)"
+    },
+    "GDSATIS": {
+        "Descriptor": "Are you basically satisfied with your life?\n0 No(1)\n1 Yes(0)"
+    },
+    "GDDROP": {
+        "Descriptor": "Have you dropped many of your activities and interests?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDEMPTY": {
+        "Descriptor": "Do you feel that your life is empty?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDBORED": {
+        "Descriptor": "Do you often get bored?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDSPIRIT": {
+        "Descriptor": "Are you in good spirits most of the time?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDAFRAID": {
+        "Descriptor": "Are you afraid that something bad is going to happen to you?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDHAPPY": {
+        "Descriptor": "Do you feel happy most of the time?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDHELP": {
+        "Descriptor": "Do you often feel helpless?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDHOME": {
+        "Descriptor": "Do you prefer to stay at home, rather than going out and doing new things?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDMEMORY": {
+        "Descriptor": "Do you feel you have more problems with memory than most?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDALIVE": {
+        "Descriptor": "Do you think its wonderful to be alive now?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDWORTH": {
+        "Descriptor": "Do you feel pretty worthless the way you are now?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDENERGY": {
+        "Descriptor": "Do you feel full of energy?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDHOPE": {
+        "Descriptor": "Do you feel that your life is empty?\n0 No(0)\n1 Yes(1)"
+    },
+    "GDBETTER": {
+        "Descriptor": "Do you think that most people are better off than you are?\n0 No(0)\n1 Yes(1)"
+    },
+    "HMONSET": {
+        "Descriptor": "Abrupt Onset of Dementia\n0 Absent\n2 Present - 2 points"
+    },
+    "HMSTEPWS": {
+        "Descriptor": "Stepwise Deterioration of Dementia\n0 Absent\n1 Present - 1 point"
+    },
+    "HMSOMATC": {
+        "Descriptor": "Somatic Complaints\n0 Absent\n1 Present - 1 point"
+    },
+    "HMEMOTIO": {
+        "Descriptor": "Somatic Complaints\n0 Absent\n1 Present - 1 point"
+    },
+    "MH14ALCH": {
+        "Descriptor": "Alcohol Abuse\n0 No\n1 Yes"
+    },
+    "NPICSEV": {
+        "Descriptor": "Agitation/Aggression: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIESEV": {
+        "Descriptor": "Anxiety: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIFSEV": {
+        "Descriptor": "Elation/Euphoria: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIGSEV": {
+        "Descriptor": "Apathy/Indifference: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIHSEV": {
+        "Descriptor": "Disinhibition: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIDSEV": {
+        "Descriptor": "Depression/Dysphoria: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIASEV": {
+        "Descriptor": "Delusions: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIBSEV": {
+        "Descriptor": "Hallucinations: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPILSEV": {
+        "Descriptor": "Appetite: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIKSEV": {
+        "Descriptor": "Sleep: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIISEV": {
+        "Descriptor": "Irritability/Lability: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "NPIJSEV": {
+        "Descriptor": "Aberrant Motor Behavior: Severity Ratings\n1   1 - Mild (noticeable, but not a significant change).\n2   2 - Moderate (significant, but not a dramatic change).\n3   3 - Severe (very marked or prominent. A dramatic change)."
+    },
+    "DSPANFOR": {
+        "Descriptor": "Forward: Total Correct"
+    },
+    "DSPANFLTH": {
+        "Descriptor": "Forward: Length"
+    },
+    "DSPANBAC": {
+        "Descriptor": "Backward: Total Correct"
+    },
+    "DSPANBLTH": {
+        "Descriptor": "Backward: Length"
+    },
+    "TRABSCOR": {
+        "Descriptor": "Part B - Time to complete"
+    },
+    "TRAASCOR": {
+        "Descriptor": "Part A - Time to Complete"
+    },
+    "LDELTOTAL": {
+        "Descriptor": "Logical Memory - (Delayed Recall) Total Number of Story Units Recalled:"
+    },
+    "LIMMTOTAL": {
+        "Descriptor": "Logical Memory - (Immediate Recall) Total Number of Story Units Recalled:"
+    },
+    "MOCA": {
+        "Descriptor": "MOCA"
+    },
+    "BNTTOTAL": {
+        "Descriptor": "Total Number Correct (1+3)"
+    },
+    "GDTOTAL": {
+        "Descriptor": "Total Score"
+    },
+    "FAQFINAN": {
+        "Descriptor": "Writing checks, paying bills, or balancing checkbook.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQFORM": {
+        "Descriptor": "Assembling tax records, business affairs, or other papers.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQSHOP": {
+        "Descriptor": "Shopping alone for clothes, household necessities, or groceries.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQBEVG": {
+        "Descriptor": "Heating water, making a cup of coffee, turing off the stove.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQGAME": {
+        "Descriptor": "Playing a game of skill such as bridge or chess, working on a hobby.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQTRAVL": {
+        "Descriptor": "Traveling out of the neighborhood, driving, or arranging to take public transportation.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQTV": {
+        "Descriptor": "Paying attention to and understanding a TV program, book, or magazine.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQMEAL": {
+        "Descriptor": "Preparing a balanced meal.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQEVENT": {
+        "Descriptor": "Keeping track of current events.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "FAQREM": {
+        "Descriptor": "Remembering appointments, family occasions, holidays, medications.\n0 Normal (0)\n1 Never did, but could do now (0)\n2 Never did, would have difficulty now (1)\n3 Has difficulty, but does by self (1)\n4 Requires assistance (2)\n5 Dependent (3)"
+    },
+    "PTETHCAT": {
+        "Descriptor": "Ethnic Category\n1 Hispanic or Latino\n2 Not Hispanic or Latino\n3 Unknown"
+    },
+    "SERIAL1": {
+        "Descriptor": "Serial 7: 1st Subtraction\n0 Incorrect\n1 Correct"
+    },
+    "SERIAL2": {
+        "Descriptor": "Serial 7: 2nd Subtraction\n0 Incorrect\n1 Correct"
+    },
+    "SERIAL3": {
+        "Descriptor": "Serial 7: 3rd Subtraction\n0 Incorrect\n1 Correct"
+    },
+    "SERIAL4": {
+        "Descriptor": "Serial 7: 4th Subtraction\n0 Incorrect\n1 Correct"
+    },
+    "SERIAL5": {
+        "Descriptor": "Serial 7: 5th Subtraction\n0 Incorrect\n1 Correct"
+    },
+    "DIGFOR": {
+        "Descriptor": "Digits Forward \n0 Incorrect\n1 Correct"
+    },
+    "DIGBACK": {
+        "Descriptor": "Digits Backward\n0 Incorrect\n1 Correct"
+    },
+    "LETTERS": {
+        "Descriptor": "List of Letters/Tapping: # Errors"
+    },
+    "IMMT1W1": {
+        "Descriptor": "Immediate (#1): Face\n0 Incorrect\n1 Correct"
+    },
+    "IMMT1W2": {
+        "Descriptor": "Immediate (#1): Velvet\n0 Incorrect\n1 Correct"
+    },
+    "IMMT1W3": {
+        "Descriptor": "Immediate (#1): Church\n0 Incorrect\n1 Correct"
+    },
+    "IMMT1W4": {
+        "Descriptor": "Immediate (#1): Daisy\n0 Incorrect\n1 Correct"
+    },
+    "IMMT1W5": {
+        "Descriptor": "Immediate (#1): Red\n0 Incorrect\n1 Correct"
+    },
+    "IMMT2W1": {
+        "Descriptor": "Immediate (#2): Face\n0 Incorrect\n1 Correct"
+    },
+    "IMMT2W2": {
+        "Descriptor": "Immediate (#2): Velvet\n0 Incorrect\n1 Correct"
+    },
+    "IMMT2W3": {
+        "Descriptor": "Immediate (#2): Church\n0 Incorrect\n1 Correct"
+    },
+    "IMMT2W4": {
+        "Descriptor": "Immediate (#2): Daisy\n0 Incorrect\n1 Correct"
+    },
+    "IMMT2W5": {
+        "Descriptor": "Immediate (#2): Red\n0 Incorrect\n1 Correct"
+    },
+    "LION": {
+        "Descriptor": "LION\n0 Incorrect\n1 Correct"
+    },
+    "RHINO": {
+        "Descriptor": "Rhinoceros\n0 Incorrect\n1 Correct"
+    },
+    "CAMEL": {
+        "Descriptor": "Camel\n0 Incorrect\n1 Correct"
+    },
+    "REPEAT1": {
+        "Descriptor": "Repeat Sentence: I only know that John is the one to help today.\n0 Incorrect\n1 Correct"
+    },
+    "REPEAT2": {
+        "Descriptor": "Repeat Sentence: The cat always hid under the couch when dogs were in the room.\n0 Incorrect\n1 Correct"
+    },
+    "FFLUENCY": {
+        "Descriptor": "Letter Fluency - F: Total number of correct words"
+    },
+    "ABSTRAN": {
+        "Descriptor": "Abstraction: train-bicycle"
+    },
+    "ABSMEAS": {
+        "Descriptor": "Abstraction: watch-ruler\n0 Incorrect\n1 Correct"
+    },
+    "DELW1": {
+        "Descriptor": "Delayed: Face\n0 Incorrect\n1 Correct with No Cue\n2 Correct with Category Cue\n3 Correct with Mult. Choice Cue"
+    },
+    "DELW2": {
+        "Descriptor": "Delayed: Velvet\n0 Incorrect\n1 Correct with No Cue\n2 Correct with Category Cue\n3 Correct with Mult. Choice Cue"
+    },
+    "DELW3": {
+        "Descriptor": "Delayed: Church\n0 Incorrect\n1 Correct with No Cue\n2 Correct with Category Cue\n3 Correct with Mult. Choice Cue"
+    },
+    "DELW4": {
+        "Descriptor": "Delayed: Daisy\n0 Incorrect\n1 Correct with No Cue\n2 Correct with Category Cue\n3 Correct with Mult. Choice Cue"
+    },
+    "DELW5": {
+        "Descriptor": "Delayed: Red\n0 Incorrect\n1 Correct with No Cue\n2 Correct with Category Cue\n3 Correct with Mult. Choice Cue"
+    },
+    "MINTSEMCUE": {
+        "Descriptor": "MINT Total Correct - with Semantic Cue"
+    },
+    "MINTTOTAL": {
+        "Descriptor": "MINT Total Correct (Uncued + Correct with Semantic cue)"
+    },
+    "MINTUNCUED": {
+        "Descriptor": "MINT Total Uncued Correct"
+    },
+    "CATANIMSC": {
+        "Descriptor": "Category Fluency (Animals) - Total Correct"
+    },
+    "VSHEIGHT": {
+        "Descriptor": "Height"
+    },
+    "VSWEIGHT": {
+        "Descriptor": "Weight"
+    },
+    "VSWTUNIT": {
+        "Descriptor": "Weight Units \n1 pounds\n2 kilograms"
+    },
+    "VSHTUNIT": {
+        "Descriptor": "Height Units\n1 inches\n2 centimeters"
+    },
+    "FAQTOTAL": {
+        "Descriptor": "Total Score"
+    },
+    "MMDATE": {
+        "Descriptor": "Score (date)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMYEAR": {
+        "Descriptor": "Score (year)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMMONTH": {
+        "Descriptor": "Score (month)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMDAY": {
+        "Descriptor": "Score (day of the week)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMSEASON": {
+        "Descriptor": "Score (season)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMHOSPIT": {
+        "Descriptor": "Score (building)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMFLOOR": {
+        "Descriptor": "Score (floor)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMCITY": {
+        "Descriptor": "Score (city/town)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMAREA": {
+        "Descriptor": "Score(county)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "MMSTATE": {
+        "Descriptor": "Score (state)\n0 0 - Incorrect\n1 1 - Correct"
+    },
+    "subject_age": {
+        "Descriptor": "Youngest age at which subject data is available"
+    },
+    "PTGENDER": {
+        "Descriptor": "What sex was the participant assigned at birth, on their original birth certificate\n1 Male\n2 Female"
+    },
+    "GENOTYPE": {
+        "Descriptor": "Apolipoprotein E (Apo-E) Genotype"
+    }
+}

@@ -1,0 +1,560 @@
+[features]
+
+	[feature.TRAILS]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.CUBE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.CLOCKCON]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.CLOCKNO]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.CLOCKHAN]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.DATE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MONTH]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.YEAR]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.DAY]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.PLACE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.CITY]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMSCORE]
+	type = "numerical"
+	shape = [1]
+
+	[feature.PTPLANG]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.PTMARRY]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.PTHOME]
+	type = "multiple"
+	num_categories = 10
+
+	[feature.PTHAND]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.PTEDUCAT]
+	type = "numerical"
+	shape = [1]
+
+	[feature.MOTHDEM]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.FATHDEM]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.MH16BSMOK]
+	type = "numerical"
+	shape = [1]
+
+	[feature.HMHYPERT]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.BCSTROKE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.HMSTROKE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.HMNEURSM]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.HMNEURSG]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.PTRACCAT]
+	type = "multiple"
+	num_categories = 9
+
+	[feature.VSBPSYS]
+	type = "numerical"
+	shape = [1]
+
+	[feature.VSBPDIA]
+	type = "numerical"
+	shape = [1]
+
+	[feature.VSPULSE]
+	type = "numerical"
+	shape = [1]
+
+	[feature.GDSATIS]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDDROP]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDEMPTY]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDBORED]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDSPIRIT]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDAFRAID]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDHAPPY]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDHELP]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDHOME]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDMEMORY]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDALIVE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDWORTH]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDENERGY]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDHOPE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GDBETTER]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.HMONSET]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.HMSTEPWS]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.HMSOMATC]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.HMEMOTIO]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MH14ALCH]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.NPICSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIESEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIFSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIGSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIHSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIDSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIASEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIBSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPILSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIKSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIISEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.NPIJSEV]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.DSPANFOR]
+	type = "numerical"
+	shape = [1]
+
+	[feature.DSPANFLTH]
+	type = "numerical"
+	shape = [1]
+
+	[feature.DSPANBAC]
+	type = "numerical"
+	shape = [1]
+
+	[feature.DSPANBLTH]
+	type = "numerical"
+	shape = [1]
+
+	[feature.TRABSCOR]
+	type = "numerical"
+	shape = [1]
+
+	[feature.TRAASCOR]
+	type = "numerical"
+	shape = [1]
+
+	[feature.LDELTOTAL]
+	type = "numerical"
+	shape = [1]
+
+	[feature.LIMMTOTAL]
+	type = "numerical"
+	shape = [1]
+
+	[feature.MOCA]
+	type = "numerical"
+	shape = [1]
+
+	[feature.BNTTOTAL]
+	type = "numerical"
+	shape = [1]
+
+	[feature.GDTOTAL]
+	type = "numerical"
+	shape = [1]
+
+	[feature.FAQFINAN]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQFORM]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQSHOP]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQBEVG]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQGAME]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQTRAVL]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQTV]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQMEAL]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQEVENT]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.FAQREM]
+	type = "multiple"
+	num_categories = 6
+
+	[feature.PTETHCAT]
+	type = "multiple"
+	num_categories = 3
+
+	[feature.SERIAL1]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.SERIAL2]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.SERIAL3]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.SERIAL4]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.SERIAL5]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.DIGFOR]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.DIGBACK]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.LETTERS]
+	type = "numerical"
+	shape = [1]
+
+	[feature.IMMT1W1]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT1W2]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT1W3]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT1W4]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT1W5]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT2W1]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT2W2]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT2W3]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT2W4]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.IMMT2W5]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.LION]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.RHINO]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.CAMEL]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.REPEAT1]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.REPEAT2]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.FFLUENCY]
+	type = "numerical"
+	shape = [1]
+
+	[feature.ABSTRAN]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.ABSMEAS]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.DELW1]
+	type = "multiple"
+	num_categories = 4
+
+	[feature.DELW2]
+	type = "multiple"
+	num_categories = 4
+
+	[feature.DELW3]
+	type = "multiple"
+	num_categories = 4
+
+	[feature.DELW4]
+	type = "multiple"
+	num_categories = 4
+
+	[feature.DELW5]
+	type = "multiple"
+	num_categories = 4
+
+	[feature.MINTSEMCUE]
+	type = "numerical"
+	shape = [1]
+
+	[feature.MINTTOTAL]
+	type = "numerical"
+	shape = [1]
+
+	[feature.MINTUNCUED]
+	type = "numerical"
+	shape = [1]
+
+	[feature.CATANIMSC]
+	type = "numerical"
+	shape = [1]
+
+	[feature.VSHEIGHT]
+	type = "numerical"
+	shape = [1]
+
+	[feature.VSWEIGHT]
+	type = "numerical"
+	shape = [1]
+
+	[feature.VSWTUNIT]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.VSHTUNIT]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.FAQTOTAL]
+	type = "numerical"
+	shape = [1]
+
+	[feature.MMDATE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMYEAR]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMMONTH]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMDAY]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMSEASON]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMHOSPIT]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMFLOOR]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMCITY]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMAREA]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.MMSTATE]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.subject_age]
+	type = "numerical"
+	shape = [1]
+
+	[feature.PTGENDER]
+	type = "binary"
+	num_categories = "2"
+
+	[feature.GENOTYPE]
+	type = "numerical"
+	shape = [1]
+
+[labels]
+
+	[label.NC]
+	type = "categorical"
+	num_categories = 2
+
+	[label.MCI]
+	type = "categorical"
+	num_categories = 2
+
+	[label.AD]
+	type = "categorical"
+	num_categories = 2
+
